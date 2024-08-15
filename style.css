@@ -1,0 +1,25 @@
+#tabel {
+    font-family: "Montserrat", system-ui;
+    font-weight: 500;
+    font-style: normal;
+    border-collapse: collapse;
+    width: 60%;
+    
+}
+
+#tabel td, #tabel th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+#tabel tr:nth-child(even){background-color: #f2f2f2;}
+
+#tabel tr:hover {background-color: #ddd;}
+
+#tabel th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    background-color: #04AA6D;
+    color: white;
+    font-size: 50px;
+}
